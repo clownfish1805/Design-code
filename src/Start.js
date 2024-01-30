@@ -1,33 +1,35 @@
 import React from 'react';
-import { ReactComponent as YourImage } from './YourImage.svg';
-import { ReactComponent as Logo } from './Logo.svg';
-import { ReactComponent as DivImage1 } from './DivImage1.svg';
-import { ReactComponent as DivImage2 } from './DivImage2.svg';
-import { ReactComponent as DivImage3 } from './DivImage3.svg';
-import { ReactComponent as Img } from './Img.svg';
-import { ReactComponent as Img2 } from './Img2.svg';
-import { ReactComponent as Img3 } from './Img3.svg';
-import { ReactComponent as Img4 } from './Img4.svg';
-import { ReactComponent as Img5 } from './Img5.svg';
-import { ReactComponent as Img6 } from './Img6.svg';
-import { ReactComponent as Img7 } from './Img7.svg';
-import { ReactComponent as Img8 } from './Img8.svg';
-import { ReactComponent as Img9 } from './Img9.svg';
-import { ReactComponent as Last1 } from './Last1.svg';
-import { ReactComponent as Last2 } from './Last2.svg';
-import { ReactComponent as Linkedin } from './Linkedin.svg';
-import { ReactComponent as Twitter } from './Twitter.svg';
-import { ReactComponent as Insta } from './Insta.svg';
-import { ReactComponent as Facebook } from './Facebook.svg';
+import { ReactComponent as YourImage } from './components/YourImage.svg';
+import { ReactComponent as Logo } from './components/Logo.svg';
+import { ReactComponent as DivImage1 } from './components/DivImage1.svg';
+import { ReactComponent as DivImage2 } from './components/DivImage2.svg';
+import { ReactComponent as DivImage3 } from './components/DivImage3.svg';
+import { ReactComponent as Img } from './components/Img.svg';
+import { ReactComponent as Img2 } from './components/Img2.svg';
+import { ReactComponent as Img3 } from './components/Img3.svg';
+import { ReactComponent as Img4 } from './components/Img4.svg';
+import { ReactComponent as Img5 } from './components/Img5.svg';
+import { ReactComponent as Img6 } from './components/Img6.svg';
+import { ReactComponent as Img7 } from './components/Img7.svg';
+import { ReactComponent as Img8 } from './components/Img8.svg';
+import { ReactComponent as Img9 } from './components/Img9.svg';
+import { ReactComponent as Last1 } from './components/Last1.svg';
+import { ReactComponent as Last2 } from './components/Last2.svg';
+import { ReactComponent as Linkedin } from './components/Linkedin.svg';
+import { ReactComponent as Twitter } from './components/Twitter.svg';
+import { ReactComponent as Insta } from './components/Insta.svg';
+import { ReactComponent as Facebook } from './components/Facebook.svg';
+
+
 function Start() {
   return (
     <>
-      <div className="bg-purple-700">
+      <div className="bg-[#5b21b6]">
         <header className="p-4 text-white">
           <div className="flex items-center">
-            <Logo/>
-            <div className="text-3xl font-bold text-yellow-300 tracking-widest ml-28">CAMPWOO</div>
-            <div className="ml-96 hover:border-indigo-700">Text 1</div>
+            <div className='ml-16'> <Logo/></div>
+            <div className="text-4xl font-bold text-yellow-300 tracking-widest ml-4">CAMPWOO</div>
+            <div className="ml-80 hover:border-indigo-700">No dropdown</div>
             <div className="ml-8">Dropdown 1</div>
             <svg
               className="fill-current h-4 w-4"
@@ -44,10 +46,10 @@ function Start() {
             >
               <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
             </svg>
-            <button className="ml-96 box-border w-28 rounded-lg border border-slate-300 hover:border-indigo-700">
+            <button className="p-2 ml-96 box-border w-28 rounded-lg border border-slate-300 hover:border-4 hover:border-[#7e22ce]">
               Button 1
             </button>
-            <button className="ml-8 box-border w-28 text-indigo-700 rounded-lg bg-white shadow-lg shadow-indigo-500/50 hover:border-indigo-700">
+            <button className="p-2 ml-8 box-border w-28 text-indigo-700 rounded-lg bg-white shadow-lg shadow-indigo-500/50 hover:border-4 hover:border-[#7e22ce]">
               Button 2
             </button>
           </div>
