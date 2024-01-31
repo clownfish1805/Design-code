@@ -19,7 +19,7 @@ import { ReactComponent as Linkedin } from './components/Linkedin.svg';
 import { ReactComponent as Twitter } from './components/Twitter.svg';
 import { ReactComponent as Insta } from './components/Insta.svg';
 import { ReactComponent as Facebook } from './components/Facebook.svg';
-
+import { ReactComponent as Lastlogo } from './components/Lastlogo.svg';
 
 function Start() {
   return (
@@ -53,176 +53,208 @@ function Start() {
               Button 2
             </button>
           </div>
-         
-          <div className="grid place-content-center mt-56">
-            <div className="flex flex-row">
-              <p className="text-xl border-2 border-rose-600 text-2xl">
-                Birds are a group of warm-blooded vertebrates
-                <br />
-                constituting the class Aves, characterised by feathers, toothless beaked jaws
-              </p>
-              <YourImage />
-            </div>
-            <br />
-            <div className="flex flex-row">
-              <div className="basis-1/4">
-                <button className="w-28 h-12 border border-slate-300">Kempwoo</button>
-              </div>
-              <div className="basis-1/4">
-                <button className="w-56 h-12 border border-slate-300">Exasperation</button>
-              </div>
-            </div>
+          </header>
 
+
+          <div className="grid place-content-center text-white">
+            <div className="flex flex-row">
+              <div className="text-xl mt-52 text-2xl">
+              <div className="text-3xl ml-4"><span className="font-bold text-yellow-300">CAMPWOO</span> birds are a group of warm-blooded 
+              <br></br>vertebrates characterised by feathers,<br></br> toothless beaked jaws<br></br>
+              </div>
+              <br></br>
+              <br></br>
+              <div className="flex flex-row ml-4 gap-4">
+              <div className="basis-1/4">
+                <button className="h-12 w-56 bg-[#4c1d95] hover:border-4 hover:border-[#7e22ce] border rounded-md">Kampa Katil</button>
+              </div>
+              <div className="basis-1/4">
+                <button className="w-56 h-12 border border-slate-300 text-[#5b21b6] bg-white hover:border-4 hover:border-[#7e22ce] border rounded-md">Exasperation</button>
+              </div>
+              </div>
+            </div>
+            <div className='mt-44'><YourImage /></div>
+            </div>
             <br />
-          </div>
-        </header>
+            <br />
+        </div>
+      </div>
+
+
+
+      <div class="flex justify-center mt-28">
+          <h3 className="text-4xl font-semibold"><span className=" text-yellow-300">CAMPWOO</span><span className='text-[#5b21b6]'> FEATURED PRODUCTS</span></h3>
+      </div>
+      <div className="flex justify-center">
+        <h3 className="text-2xl text-[#737373]">Campwoo provides a distinguishable product features for the company.</h3>
       </div>
       <br></br>
-      
-      <div class="flex justify-center mt-16">
-          <h3 className="text-3xl font-bold text-yellow-300 tracking-widest ml-28">CAMPWOO FEATURED PRODUCTS</h3>
-      </div>
-      <div class="flex justify-center">
-        <h3 className="text-2xl text-[#737373]">Features of the Campwoo Company products are mentioned below.</h3>
-      </div>
-      
+
       <div class="flex justify-center mt-16">
         <DivImage1/>
         <DivImage2/>
         <DivImage3/>
       </div>
 
-      <div className="flex justify-center mt-16">
-        <h3 className="text-[#4c1d95] text-5xl font-strong">POPULAR FEATURES</h3>
-      </div>
-
-      <div className="flex justify-center">
-        <h3 className="text-2xl text-[#737373]">Campwoo provides a distinguishable product features</h3>
+      <div className="flex justify-center mt-28">
+        <h3 className="text-[#4c1d95] text-4xl font-semibold">POPULAR FEATURES</h3>
       </div>
       
-      <div className="mt-16 grid gap-4 grid-cols-3 grid-rows-3 md:place-content-center">
+      <div className="flex justify-between">
+        <h3 className="text-2xl text-[#737373] text-center flex-grow ml-56">Campwoo provides a distinguishable product features</h3>
+        <span className="text-xl text-[#5b21b6] flex items-center mr-16 font-semibold">Daha Fazla Bak
+        <svg className="w-2.5 h-2.5 ml-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+       </span>
+      </div>
+
+
+      
+
+
+      <div className="mt-16 grid place-content-center gap-4 grid-cols-3 grid-rows-3 ml-56">
         <div class="flex items-center">
           <Img/>
-          <div>
-            <strong>Andrew Alfred</strong>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
             <br></br>
-            <span>Technical advisor</span>
+            <span className='text-xl text-[#737373]'>1 Technical advisor</span>
           </div>
-      </div>
-      <div class="flex items-center">
-        <Img2/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img3/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img2/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>2 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img4/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img3/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>3 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img5/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img4/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>4 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img6/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img5/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>5 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img7/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img6/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>6 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img8/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img7/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>7 Technical advisor</span>
+          </div>
         </div>
-      </div>
-      <div class="flex items-center">
-        <Img9/>
-        <div>
-          <strong>Andrew Alfred</strong><br></br>
-          <span>Technical advisor</span>
+        <div class="flex items-center">
+          <Img8/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>8 Technical advisor</span>
+          </div>
         </div>
+        <div class="flex items-center">
+          <Img9/>
+          <div className='ml-4'>
+            <strong className='text-[#5b21b6] text-2xl'>Andrew Alfred</strong>
+            <br></br>
+            <span className='text-xl text-[#737373]'>9 Technical advisor</span>
+          </div>
+        </div>
+      
       </div>
-      </div>
+    
       
 
-      <div className="flex justify-center mt-28">
-        <h3 className="text-3xl font-bold">CAMPWOO DIAGRAM DISPLAY</h3>
+      <div class="flex justify-center mt-28">
+          <h3 className="text-4xl font-semibold"><span className=" text-yellow-300">CAMPWOO</span><span className='text-[#5b21b6]'> FEATURED PRODUCTS</span></h3>
       </div>
-
+      <br></br>
+      <br></br>
       <div class="flex justify-center gap-56">
   <div class="p-4">
     <Last1/>
+    <br></br>
     <div className='text-center'>
-      <p class="text-lg font-semibold text-gray-800">Description 1</p>
-      <p class="text-sm text-gray-600">Additional details for Image 1.</p>
-      <button>Click On Me</button>
+    <p class="text-xl text-gray-600">Additional details for Image 1.</p>
+      <p class="text-xl text-gray-600">It is displayed in the above image and <br></br> it can be taken from the below link</p>
+      <br></br>
+      <button  className=' h-12 w-56 bg-[#5b21b6] text-white font-semibold border rounded-md' >Click On Me</button>
     </div>
   </div>
 
  
   <div class="p-4">
    <Last2/>
+   <br></br>
     <div className='text-center'>
-      <p class="text-lg font-semibold text-gray-800">Description 2</p>
-      <p class="text-sm text-gray-600">Additional details for Image 2.</p>
-      <button>Click On Me</button>
+      {/* <p class="text-lg font-semibold text-gray-800">Description 2</p> */}
+      <p class="text-xl text-gray-600">Additional details for Image 2.</p>
+      <p class="text-xl text-gray-600">It is displayed in the above image and <br></br> it can be taken from the below link</p>
+      <br></br>
+      <button className=' h-12 w-56 bg-yellow-400 font-semibold border rounded-md'>Click On Me</button>
     </div>
   </div>
 </div>
 
 <hr className="my-16 border-t-2 color-red" />
 
-<div className='ml-28'>
-  <h2 className='text-[#4c1d95] text-5xl font-bold tracking-widest'>CAMPWOO</h2>
+<div className="ml-28">
+  <div className='flex items-center'>
+    <div > <Lastlogo/></div>
+    <div className="text-4xl font-bold text-[#5b21b6] tracking-widest ml-4">CAMPWOO</div>
+  </div>
   <br></br>
-
-<div class="flex">
-  <div class="w-1/4 p-4">
-    <div class="text-left">
-    <p>Camp Wood is on the Nueces River at the intersection of Farm Road 337 and State Highway 55, 
-      just below Camp Wood Creek in far southwestern Real County. 
-      The settlement was founded in 1920 by workers of the Uvalde Cedar 
-      Company for the purpose of exploiting the abundant cedar in the area.</p>
+  <div class="flex">
+    <div class="w-2/4 p-4">
+      <div class="text-left">
+        <p >Camp Wood is on the Nueces River at the intersection of Farm Road 337 and<br></br>
+           State Highway 55, just below Camp Wood Creek in far southwestern Real County. <br></br>
+      The settlement was founded in 1920 by workers of the Uvalde Cedar Company </p>
+      </div>
     </div>
   </div>
+<br></br>
+<br></br>
 
-</div>
-<br></br>
-<br></br>
-<br></br>
-  <div className='flex gap-16 '>
+  <div className='flex gap-6 ml-4'>
     <Linkedin/>
     <Twitter/>
     <Insta/>
     <Facebook/>
   </div>
 </div>
+
+
 <br></br>
 <br></br>
-<br></br><br></br>
+<br></br>
+<br></br>
 <br></br>
 <br></br>
     </>
