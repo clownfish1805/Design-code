@@ -59,21 +59,22 @@ function Start() {
           <div className="grid place-content-center text-white">
             <div className="flex flex-row">
               <div className="text-xl mt-52 text-2xl">
-              <div className="text-3xl ml-4"><span className="font-bold text-yellow-300">CAMPWOO</span> birds are a group of warm-blooded 
-              <br></br>vertebrates characterised by feathers,<br></br> toothless beaked jaws<br></br>
-              </div>
+              <div className="text-3xl ml-4"><span className="font-bold text-yellow-300">CAMPWOO </span> 
+               is on the Nueces River at the intersection <br></br>of Farm Road 337 and
+           State Highway 55,<br></br> just below Camp Wood Creek  <br></br>
+           </div>
               <br></br>
               <br></br>
-              <div className="flex flex-row ml-4 gap-4">
+              <div className="flex flex-row ml-2 gap-4">
               <div className="basis-1/4">
-                <button className="h-12 w-56 bg-[#4c1d95] hover:border-4 hover:border-[#7e22ce] border rounded-md">Kampa Katil</button>
+                <button className="h-12 w-56 bg-[#4c1d95] hover:border-4 hover:border-[#7e22ce] border-transparent border rounded-md">Kampa Katil</button>
               </div>
               <div className="basis-1/4">
-                <button className="w-56 h-12 border border-slate-300 text-[#5b21b6] bg-white hover:border-4 hover:border-[#7e22ce] border rounded-md">Exasperation</button>
+                <button className="w-56 h-12 border border-slate-300 text-[#5b21b6] bg-white hover:border-4 hover:border-[#7e22ce] border rounded-md">Button 2</button>
               </div>
               </div>
             </div>
-            <div className='mt-44'><YourImage /></div>
+            <div className='mt-44 ml-2'><YourImage /></div>
             </div>
             <br />
             <br />
@@ -81,7 +82,7 @@ function Start() {
       </div>
 
 
-
+<br></br>
       <div class="flex justify-center mt-28">
           <h3 className="text-4xl font-semibold"><span className=" text-yellow-300">CAMPWOO</span><span className='text-[#5b21b6]'> FEATURED PRODUCTS</span></h3>
       </div>
@@ -95,6 +96,9 @@ function Start() {
         <DivImage2/>
         <DivImage3/>
       </div>
+<br></br>
+<br></br>
+<br></br>
 
       <div className="flex justify-center mt-28">
         <h3 className="text-[#4c1d95] text-4xl font-semibold">POPULAR FEATURES</h3>
@@ -108,10 +112,6 @@ function Start() {
         </svg>
        </span>
       </div>
-
-
-      
-
 
       <div className="mt-16 grid place-content-center gap-4 grid-cols-3 grid-rows-3 ml-56">
         <div class="flex items-center">
@@ -188,7 +188,9 @@ function Start() {
         </div>
       
       </div>
-    
+    <br></br>
+    <br></br>
+    <br></br>
       
 
       <div class="flex justify-center mt-28">
@@ -217,30 +219,57 @@ function Start() {
       <p class="text-xl text-gray-600">Additional details for Image 2.</p>
       <p class="text-xl text-gray-600">It is displayed in the above image and <br></br> it can be taken from the below link</p>
       <br></br>
-      <button className=' h-12 w-56 bg-yellow-400 font-semibold border rounded-md'>Click On Me</button>
+      <button className=' h-12 w-56 bg-[#fcd34d] font-semibold border rounded-md'>Click On Me</button>
     </div>
   </div>
 </div>
+<br></br>
+    <br></br>
+    <br></br>
+<hr className=" my-16 border-t-2 color-red" />
 
-<hr className="my-16 border-t-2 color-red" />
-
-<div className="ml-28">
+<div className="ml-44 mt-28">
   <div className='flex items-center'>
     <div > <Lastlogo/></div>
-    <div className="text-4xl font-bold text-[#5b21b6] tracking-widest ml-4">CAMPWOO</div>
+    <h2 className="text-5xl font-bold text-[#5b21b6] tracking-widest ml-4">CAMPWOO</h2>
   </div>
   <br></br>
-  <div class="flex">
+  <div class="flex ">
     <div class="w-2/4 p-4">
-      <div class="text-left">
+      <div class="text-left text-l">
         <p >Camp Wood is on the Nueces River at the intersection of Farm Road 337 and<br></br>
            State Highway 55, just below Camp Wood Creek in far southwestern Real County. <br></br>
       The settlement was founded in 1920 by workers of the Uvalde Cedar Company </p>
       </div>
     </div>
+    <div className="flex flex-col">
+      <div className="flex text-[#5b21b6] ">
+        <div className='w-60 h-12'>Campwoo </div>
+        <div className='w-60 h-12'>Solution </div>
+        <div className='w-60 h-12'>Contacts </div>
+      </div>
+      <div className="flex">
+        <div className="w-60 h-8">Template</div>
+        <div className="w-60 h-8">Builder</div>
+        <div className="w-60 h-8">Design</div>
+      </div>
+
+      <div className="flex">
+        <div className="w-60 h-8">Store</div>
+        <div className="w-60 h-8">Website</div>
+        <div className="w-60 h-8">Tools</div>
+      </div>
+
+      <div className="flex">
+        <div className="w-60 h-8">Investor</div>
+        <div className="w-60 h-8">Press</div>
+        <div className="w-60 h-8">Map </div>
+      </div>
+    </div>
+
   </div>
 <br></br>
-<br></br>
+
 
   <div className='flex gap-6 ml-4'>
     <Linkedin/>
