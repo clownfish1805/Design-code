@@ -61,8 +61,9 @@ function Start() {
             <div className="flex flex-row">
               <div className="text-xl mt-52 text-2xl">
               <div className="text-3xl ml-4"><span className="font-bold text-yellow-300">CAMPWOO </span> 
-               is on the Nueces River at the intersection <br></br>of Farm Road 337 and
-           State Highway 55,<br></br> just below Camp Wood Creek  <br></br>
+              Lorem ipsum dolor sit amet, consectetur,<br></br> 
+              sed do eiusmod tempor incididunt ut <br></br>labore et dolore magna aliqua.
+            <br></br>
            </div>
               <br></br>
               <br></br>
@@ -99,7 +100,7 @@ function Start() {
       </div>
 <br></br>
 <br></br>
-<br></br>
+
 
       <div className="flex justify-center mt-28">
         <h3 className="text-[#4c1d95] text-4xl font-semibold">POPULAR FEATURES</h3>
@@ -238,9 +239,10 @@ function Start() {
   <div class="flex ">
     <div class="w-2/4 p-4">
       <div class="text-left text-l">
-        <p >Camp Wood is on the Nueces River at the intersection of Farm Road 337 and<br></br>
-           State Highway 55, just below Camp Wood Creek in far southwestern Real County. <br></br>
-      The settlement was founded in 1920 by workers of the Uvalde Cedar Company </p>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br></br>
+        tempor incididunt ut labore et dolore magna aliqua.<br></br>
+        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <br>
+        </br>in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </div>
     <div className="flex flex-col">
