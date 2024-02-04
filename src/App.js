@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/start" element={<Start />} />
+      <Route path="/" element={<Start />} />
       </Routes>
       </BrowserRouter>
   );
